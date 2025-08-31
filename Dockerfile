@@ -5,4 +5,5 @@ FROM n8nio/n8n:latest
 # 2. Ptrint env variables
 # 3. Print End
 # 4. Sleep for 300 sec
-CMD ["sh", "-c", "echo '--- Start: Environment Variables ---' && printenv | sort && echo '--- End: Environment Variables ---' && sleep 300"]
+ENTRYPOINT ["/bin/sh", "-c"]
+CMD ["echo '--- Start: Environment Variables ---' && printenv | sort && echo '--- End: Environment Variables ---' && sleep 300"]
