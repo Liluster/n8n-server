@@ -10,7 +10,7 @@ module.exports = {
         password: process.env.DB_POSTGRESDB_PASSWORD,
         port: parseInt(process.env.DB_POSTGRESDB_PORT || '5432', 10),
         sslmode: 'require',
-        ssl: true, // make sure activating SSL
+        ssl: true // make sure activating SSL
       }
     }
   }
