@@ -1,4 +1,4 @@
-FROM n8nio/n8n:latest
+FROM n8nio/n8n:1.45.1
 
 # 1. 切換到 root 使用者，以便擁有最高權限
 USER root
