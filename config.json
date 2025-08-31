@@ -1,0 +1,16 @@
+{
+  "db": {
+    "type": "postgresdb",
+    "postgres": {
+      "connection": {
+        "host": "ep-withered-art-a1ljpqh9-pooler.ap-southeast-1.aws.neon.tech",
+        "user": "neondb_owner",
+        "database": "neondb",
+        "password": "npg_0DnPNtUedz4K",
+        "port": 5432,
+        "sslmode": "require",
+        "ssl": true
+      }
+    }
+  }
+}
