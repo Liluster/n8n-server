@@ -1,0 +1,15 @@
+# files created by OS
+.DS_Store
+Thumbs.db
+
+# log files
+*.log
+logs/
+
+# local environment variables
+.env
+.env.*
+
+# notes or sensitive files
+*.md.local
+*.txt
